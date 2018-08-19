@@ -17,8 +17,6 @@ let wordLevels = {
   'overdue': 0
 };
 
-wordCount = 5;
-
 for(let i=0; i < wordCount; i++){
   let wordClass = wordTable.rows[i].cells[3].getElementsByTagName('span')[0].className;
   if (wordClass == stillStrong) {
